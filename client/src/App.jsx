@@ -11,7 +11,7 @@ function App() {
 
   const socket = useMemo(
     () =>
-      io("http://localhost:3000", {
+      io("https://friends-talk.onrender.com", {
         withCredentials: true,
       }),
     []
