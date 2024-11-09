@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 1rem;
+  font-size: 2rem !important;
+}
+
+.heading {
+  padding: 1rem !important;
+}
+
+.room_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room_name_input {
+  width: 32rem !important;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.userid {
+  font-size: 16px;
+  margin-left: 12px;
+  font-weight: 400;
+}
+
+.socketid {
+  margin-left: 8px;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .room_name {
+    display: flex;
+    width: 23rem;
+    gap: 1rem;
+  }
+}
